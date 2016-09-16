@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Post demo!
+imgDefault: https://avatars2.githubusercontent.com/u/15043041?v=3&s=40
 ---
 
 Kỷ nguyên số làm thay đổi thế giới
