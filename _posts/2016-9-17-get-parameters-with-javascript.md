@@ -1,6 +1,6 @@
 ---
 layout: blogs_single
-thumbnail: https://nguyetungs.github.io/uploads/img/parameter-javascript.jpg
+thumbnail: https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/uploads/img/parameter-javascript.jpg?raw=true
 title: Javascript - Làm thế nào để lấy những parames trên url sử dụng javascript
 logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
 description:  Có rất nhiều cách để lấy những parameters trên url, nhưng trong bài viết này tôi sử dụng javascript để thay thế cho nhiều cách khác. Và tôi nghĩ sẽ có nhiều lúc bạn sẽ cần đến nó...
@@ -17,7 +17,7 @@ date: 17 Sep 2016
         </span>
     </div>
     <section class="post-content">
-        <p><img src="https://nguyetungs.github.io/uploads/img/parameter-javascript.jpg" alt="tungns - hướng dẫn cách lấy parame trên url dùng javascript" />
+        <p><img src="/uploads/img/parameter-javascript.jpg" alt="tungns - hướng dẫn cách lấy parame trên url dùng javascript" />
         </p>
 
         
