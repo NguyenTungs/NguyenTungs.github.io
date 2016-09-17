@@ -21,9 +21,8 @@ date: 17 Sep 2016
 
         
         <p>Đầu tiên mình sẽ tạo những record sau đây: </p>
-        </br>
-        <pre><code>
-        {
+        
+        <pre><code>{
             "subject":"Nhà tôi có nuôi con voi", 
             "content":"Con void là bạn thân của tôi.", 
             "likes": 60, 
@@ -42,36 +41,30 @@ date: 17 Sep 2016
         
         <p>Mình sẽ insert những dữ liệu đó vào collection messages: </p>
         
-        <pre><code>
-        db.messages.insert({"subject":"Nhà tôi có nuôi con voi", "content":"Con void là bạn thân của tôi.", "likes": 60, "year":2015, "language":"english"})
+        <pre><code>db.messages.insert({"subject":"Nhà tôi có nuôi con voi", "content":"Con void là bạn thân của tôi.", "likes": 60, "year":2015, "language":"english"})
         db.messages.insert({"subject":"Nhà tôi có nuôi con tinh tinh", "content":"Con void va con tinh tinh là bạn thân của tôi.", "likes": 61, "year":2015, "language":"english"})
         </code></pre>
     
         <p>Tạo một chỉ mục văn bản trên các "subject" của dữ liệu mà mình mới insert bằng cách sử dụng truy vấn sau đây:</p>
-        <pre><code>
-        db.messages.createIndex({"subject":"text"})
+        <pre><code>db.messages.createIndex({"subject":"text"})
         </code></pre>
         <p>Sau đó mình sẽ truy vấn như sau : </p>
-        <pre><code>
-        db.messages.find({$text: {$search: "voi"}}, {score: {$meta: "textScore"}}).sort({score:{$meta:"textScore"}})
+        <pre><code>db.messages.find({$text: {$search: "voi"}}, {score: {$meta: "textScore"}}).sort({score:{$meta:"textScore"}})
         </code></pre>
 
         <p>Các truy vấn trên trả về các record sau đây có chứa những từ "voi" trong "subject" của mình.</p>
-        <pre><code>
-            db.messages.insert({"subject":"Nhà tôi có nuôi con voi", "content":"Con void là bạn thân của tôi.", "likes": 60, "year":2015, "language":"english"})
+        <pre><code>db.messages.insert({"subject":"Nhà tôi có nuôi con voi", "content":"Con void là bạn thân của tôi.", "likes": 60, "year":2015, "language":"english"})
         </code></pre>
 
         <p>Xong rồi đó, với việc minh toạ index thì một cấu trúc dữ liệu được lưu trữ trên ổ cứng tương ứng với một table hoặc view nhằm mục đích tăng tốc độ việc truy xuất dữ liệu từ table hoặc view đó.</p>
         <p>Muốn xoá thì dùng lệnh sau : </p>
         
-        <pre><code>
-            db.messages.dropIndex("subject_text") 
+        <pre><code>db.messages.dropIndex("subject_text") 
         </code></pre>
 
         <p>Chúng ta có thể add nhiều index trong một collection : </p>
         
-        <pre><code>
-            db.messages.createIndex({"subject":"text","content":"text"})
+        <pre><code>db.messages.createIndex({"subject":"text","content":"text"})
         </code></pre>
 
         <p><i>Cảm ơn các bạn đã cùng chia sẻ.</i></p>
