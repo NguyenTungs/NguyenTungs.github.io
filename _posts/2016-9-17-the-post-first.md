@@ -33,3 +33,32 @@ function getUrlParameter(name) {
 getUrlParameter('post'); // "1234"
 getUrlParameter('action'); // "edit"
 ```
+<hr>
+<section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?text=Lorem ipsum dolor sit amet&url=https://nguyentungs.github.io/the-post-first/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://nguyentungs.github.io/the-post-first/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=https://nguyentungs.github.io/the-post-first/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+
+<br/>
+<article class="post tag-article">
+    <footer class="post-footer">
+        <section class="author">
+            <h4>Nguyen Tungs</h4>
+            <img src='https://avatars1.githubusercontent.com/u/15043041?v=3&s=466' />
+            <p>I am Nguyen Tungns a web developer from HCM, VietNam.</p>
+        </section>
+    </footer>
+</article>
+<br/>
+<article class="post tag-article">
+    <br/>
+    <div id="disqus_thread">Comment here</div>
+</article>
