@@ -1,23 +1,29 @@
 ---
 layout: blogs_single
-thumbnail: https://nguyentungs.github.io/content/images/2014/Jan/wide2-1.jpg
-title: Lorem ipsum dolor sit amet 1
+thumbnail: https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/assets/img/mongodb-logo.png?raw=true
+title: Mongodb - Hướng dẫn tạo index trong mongodb
 logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
-description:  Lorem ipsum dolor sit amet, in facete euripidis posidonium sit, has legere appetere intellegam id. Ut eam adhuc accommodare, an sea quaestio definiebas, et eos copiosae efficiendi. Ancillae euripidis inciderint cu sed, labore corrumpit id nam. Commodo sententiae reprehendunt te his, at est aperiri nonumes cotidieque. Ad ius eius legere
+description:  Khi truy vấn dữ liệu trong mongodb, thì bạn nên set index cho các collection để được truy vấn nhanh hơn, và hiệu quả hơn. Sau đây mình sẽ hướng dẫn các bạn cách tạo , xoá, và tạo nhiều index trên một Collection.
 date: 17 Sep 2016
 ---
 
 <article class="post tag-article">
     <div align='center'><img class='post-top' src='https://avatars1.githubusercontent.com/u/15043041?v=3&s=466' /></div>
-    <h1 class="post-title">Lorem ipsum dolor sit amet 1</h1>
+    <h1 class="post-title">[Mongodb] - Hướng dẫn tạo index trong mongodb</h1>
     <div align='center'>
         <span class="post-meta">
-        Posted On <time datetime="2016-09-17">17 Sep 2016</time> by Nguyen Tungs
+        Posted On <time datetime="2016-09-18">18 Sep 2016</time> by Nguyen Tungs
         </span>
     </div>
     <section class="post-content">
-        <p><img src="/content/images/2014/Jan/wide2-1.jpg" alt="" /></p>
-        <p>Lorem ipsum dolor sit amet, in facete euripidis posidonium sit, has legere appetere intellegam id. Ut eam adhuc accommodare, an sea quaestio definiebas, et eos copiosae efficiendi. Ancillae euripidis inciderint cu sed, labore corrumpit id nam. Commodo sententiae reprehendunt te his, at est aperiri nonumes cotidieque. Ad ius eius legere dissentiet, usu adhuc expetendis cu. Vix laoreet rationibus ne.</p>
+        <p><img src="https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/assets/img/mongodb-logo.png?raw=true" alt="" /></p>
+        <p><pre><code>{
+                "subject":"Joe owns a dog", 
+                "content":"Dogs are man's best friend", 
+                "likes": 60, 
+                "year":2015, 
+                "language":"english"
+            }</code></pre> </p>
         <p>Id vis congue integre, persius quaeque vix eu. Vidisse patrioque sit at, eum et patrioque tincidunt. Te ius mazim deterruisset, mediocrem dissentiunt an eum, magna fastidii adipiscing sit ea. Ea sit odio probo, homero aliquip has eu, ne vim elit soleat. Ex sint liber regione ius, paulo regione sit cu, et cum elit errem primis. Est menandri delicata ea, et eum nihil accommodare.</p>
         <p>Vis omnis consectetuer comprehensam no. Eos ex nonumy altera appetere, an ius posse iudico iracundia. Etiam veritus eu ius. Id porro minimum invenire has. Esse ubique ius id.</p>
         <p>Falli iudico dolore ei usu. Autem electram cu sit. In percipit honestatis nam, has ea facilis placerat detraxit, melius nusquam vituperatoribus et eum. Vero movet ponderum in nec. Usu an omnis causae ceteros. Ad est legere tractatos, mea te idque omnesque honestatis.</p>
