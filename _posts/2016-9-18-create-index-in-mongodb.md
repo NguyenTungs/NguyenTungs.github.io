@@ -19,6 +19,14 @@ date: 17 Sep 2016
         <p><img src="https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/assets/img/mongodb-logo.png?raw=true" alt="" />
         </p>
 
+        <dl>
+            <dt>Definition list</dt>
+            <dd>Is something people use sometimes.</dd>
+
+            <dt>Markdown in HTML</dt>
+            <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+          </dl>
+
         <pre><code>
         {
             "subject":"Nhà tôi có nuôi con voi", 
