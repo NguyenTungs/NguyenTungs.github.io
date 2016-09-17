@@ -6,8 +6,7 @@ logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
 description:  de mo
 date: 17 Sep 2016
 ---
-<article class="post tag-article">
-<pre><code>
+
 #### Cách get param với javascript
 
 ``` javascript
@@ -34,6 +33,3 @@ function getUrlParameter(name) {
 getUrlParameter('post'); // "1234"
 getUrlParameter('action'); // "edit"
 ```
-
-</code></pre>
-</article>
