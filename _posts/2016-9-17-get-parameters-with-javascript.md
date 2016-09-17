@@ -7,6 +7,7 @@ description:  Có rất nhiều cách để lấy những parameters trên url, 
 date: 17 Sep 2016
 ---
 
+
 <article class="post tag-article">
     <div align='center'><img class='post-top' src='https://avatars1.githubusercontent.com/u/15043041?v=3&s=466' /></div>
     <h1 class="post-title"> [Javascript] - Làm thế nào để lấy những parames trên url sử dụng javascript </h1>
