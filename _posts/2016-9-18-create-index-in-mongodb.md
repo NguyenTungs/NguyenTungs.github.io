@@ -19,7 +19,7 @@ date: 17 Sep 2016
         <p><img src="https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/assets/img/mongodb-logo.png?raw=true" alt="" />
         </p>
 
-        ```javascript
+        <pre><code>
         {
             "subject":"Nhà tôi có nuôi con voi", 
             "content":"Con void là bạn thân của tôi.", 
@@ -27,8 +27,8 @@ date: 17 Sep 2016
             "year": 2015, 
             "language": "english"
         }
-        ``` 
-        # Nguyen Tung
+        </code></pre> 
+        # Nguyen Tung Son
         
     
         <p>Id vis congue integre, persius quaeque vix eu. Vidisse patrioque sit at, eum et patrioque tincidunt. Te ius mazim deterruisset, mediocrem dissentiunt an eum, magna fastidii adipiscing sit ea. Ea sit odio probo, homero aliquip has eu, ne vim elit soleat. Ex sint liber regione ius, paulo regione sit cu, et cum elit errem primis. Est menandri delicata ea, et eum nihil accommodare.</p>
