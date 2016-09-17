@@ -6,9 +6,10 @@ logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
 description:  de mo
 date: 17 Sep 2016
 ---
-
+<article class="post tag-article">
 # bai hoc dau tien 
 
 ``` javascript
 console.log('Hello Github Blog');
 ```
+</article>
