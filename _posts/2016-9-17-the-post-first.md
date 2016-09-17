@@ -4,6 +4,7 @@ thumbnail: https://nguyentungs.github.io/content/images/2014/Jan/wide2-1.jpg
 title: Lorem ipsum dolor sit amet 1
 logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
 description:  Lorem ipsum dolor sit amet, in facete euripidis posidonium sit, has legere appetere intellegam id. Ut eam adhuc accommodare, an sea quaestio definiebas, et eos copiosae efficiendi. Ancillae euripidis inciderint cu sed, labore corrumpit id nam. Commodo sententiae reprehendunt te his, at est aperiri nonumes cotidieque. Ad ius eius legere
+date: 17 Sep 2016
 ---
 
 <article class="post tag-article">
