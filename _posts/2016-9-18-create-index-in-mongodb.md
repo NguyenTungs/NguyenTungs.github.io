@@ -4,7 +4,7 @@ thumbnail: https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/asse
 title: Mongodb - Hướng dẫn tạo index trong mongodb
 logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
 description:  Khi truy vấn dữ liệu trong mongodb, thì bạn nên set index cho các collection để được truy vấn nhanh hơn, và hiệu quả hơn. Sau đây mình sẽ hướng dẫn các bạn cách tạo , xoá, và tạo nhiều index trên một Collection.
-date: 18 Sep 2016
+date: 17 Sep 2016
 ---
 
 <article class="post tag-article">
@@ -17,13 +17,19 @@ date: 18 Sep 2016
     </div>
     <section class="post-content">
         <p><img src="https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/assets/img/mongodb-logo.png?raw=true" alt="" /></p>
-        <p>> {
-                "subject":"Joe owns a dog", 
-                "content":"Dogs are man's best friend", 
-                "likes": 60, 
-                "year":2015, 
-                "language":"english"
-            }</p>
+        <p>
+            <pre>
+                    <code>
+                        {
+                            "subject":"Nhà tôi có nuôi con voi ", 
+                            "content":"Con void là bạn thân của tôi.", 
+                            "likes": 60, 
+                            "year": 2015, 
+                            "language": "english"
+                        }
+                    </code>
+            </pre>
+        </p>
         <p>Id vis congue integre, persius quaeque vix eu. Vidisse patrioque sit at, eum et patrioque tincidunt. Te ius mazim deterruisset, mediocrem dissentiunt an eum, magna fastidii adipiscing sit ea. Ea sit odio probo, homero aliquip has eu, ne vim elit soleat. Ex sint liber regione ius, paulo regione sit cu, et cum elit errem primis. Est menandri delicata ea, et eum nihil accommodare.</p>
         <p>Vis omnis consectetuer comprehensam no. Eos ex nonumy altera appetere, an ius posse iudico iracundia. Etiam veritus eu ius. Id porro minimum invenire has. Esse ubique ius id.</p>
         <p>Falli iudico dolore ei usu. Autem electram cu sit. In percipit honestatis nam, has ea facilis placerat detraxit, melius nusquam vituperatoribus et eum. Vero movet ponderum in nec. Usu an omnis causae ceteros. Ad est legere tractatos, mea te idque omnesque honestatis.</p>
