@@ -1,108 +1,29 @@
 ---
 layout: blogs
 ---
+  
+{% for post in site.posts %}  
 <article class="post tag-getting-started">
-    <img class='img-left' src='content/images/2014/Jan/pic-1.jpg' />
+    <img class='img-left' src='{{ post.thumbnail }}' />
     <br/>
     <header class="post-header">
-        <h2 class="post-title"><a href="/welcome-to-ghost-2/">Welcome to Ghost</a></h2>
+        <h2 class="post-title"><a href={{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <br/>
         <div class="date-box">
             <span class="date-outer">
-         <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
+         <span class="date-inner"><time datetime="{{ page.date | date: "%B %e, %Y" }}">{{ page.date | date: "%B %e, %Y" }}</time></span>
             </span>
         </div>
     </header>
     <section class="post-excerpt">
         <br>
         <p>
-            <p></p>You're in! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. Go ahead and edit this post to get going and learn how it all works! Getting Started Writing in markdown is really easy. In the left hand panel of Ghost</p>
+            <p></p>{{ post.excerpt }}</p>
     </section>
-    <span class="post-meta"> on Getting Started</span>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post-meta"> Read More </a>
 </article>
 <br/>
-<article class="post tag-article">
-    <img class='img-left' src='content/images/2014/Jan/pic-1.jpg' />
-    <br/>
-    <header class="post-header">
-        <h2 class="post-title"><a href="/lorem-ipsum-dolor-sit-amet/">Lorem ipsum dolor sit amet</a></h2>
-        <br/>
-        <div class="date-box">
-            <span class="date-outer">
-         <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
-            </span>
-        </div>
-    </header>
-    <section class="post-excerpt">
-        <br>
-        <p>
-            <p><img src="content/images/2014/Jan/wide2-1.jpg" alt="" /></p> Lorem ipsum dolor sit amet, in facete euripidis posidonium sit, has legere appetere intellegam id. Ut eam adhuc accommodare, an sea quaestio definiebas, et eos copiosae efficiendi. Ancillae euripidis inciderint cu sed, labore corrumpit id nam. Commodo sententiae reprehendunt te his, at est aperiri nonumes cotidieque. Ad ius eius legere</p>
-    </section>
-    <span class="post-meta"> on article</span>
-</article>
-<br/>
-<article class="post tag-video">
-    <img class='img-left' src='content/images/2014/Jan/pic-1.jpg' />
-    <br/>
-    <header class="post-header">
-        <h2 class="post-title"><a href="/vimeo-video-post/">Video embed Post</a></h2>
-        <br/>
-        <div class="date-box">
-            <span class="date-outer">
-         <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
-            </span>
-        </div>
-    </header>
-    <section class="post-excerpt">
-        <br>
-        <p>
-            <iframe src="//www.youtube.com/embed/1r0YfOkNhJ8" frameborder="0" allowfullscreen></iframe>
-        </p>
-    </section>
-    <span class="post-meta"> on video</span>
-</article>
-<br/>
-<article class="post tag-soundcloud">
-    <img class='img-left' src='content/images/2014/Jan/pic-1.jpg' />
-    <br/>
-    <header class="post-header">
-        <h2 class="post-title"><a href="/sound-cloud/">Sound Cloud</a></h2>
-        <br/>
-        <div class="date-box">
-            <span class="date-outer">
-         <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
-            </span>
-        </div>
-    </header>
-    <section class="post-excerpt">
-        <br>
-        <p>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119828644&show_artwork=false"></iframe>
-        </p>
-    </section>
-    <span class="post-meta"> on soundcloud</span>
-</article>
-<br/>
-<article class="post tag-image">
-    <img class='img-left' src='content/images/2014/Jan/pic-1.jpg' />
-    <br/>
-    <header class="post-header">
-        <h2 class="post-title"><a href="/sample-ghost-post/">Sample Ghost Post</a></h2>
-        <br/>
-        <div class="date-box">
-            <span class="date-outer">
-         <span class="date-inner"><time datetime="2014-01-15">15 Jan 2014</time></span>
-            </span>
-        </div>
-    </header>
-    <section class="post-excerpt">
-        <br>
-        <p>
-            <p><img src="content/images/2014/Jan/newIconSet-1.jpg" alt="" /></p> Lorem ipsum dolor sit amet, in facete euripidis posidonium sit, has legere appetere intellegam id. Ut eam adhuc accommodare, an sea quaestio definiebas, et eos copiosae efficiendi. Ancillae euripidis inciderint cu sed, labore corrumpit id nam. Commodo sententiae reprehendunt te his, at est aperiri nonumes cotidieque. Ad ius eius legere</p>
-    </section>
-    <span class="post-meta"> on Image</span>
-</article>
-<br/>
+{% endfor %}
 <nav class="pagination" role="navigation">
     <span class="page-number">Page 1 of 2</span>
     <a class="older-posts" href="/page/2/">Older Posts &rarr;</a>
