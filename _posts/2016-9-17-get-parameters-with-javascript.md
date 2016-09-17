@@ -3,7 +3,7 @@ layout: blogs_single
 thumbnail: http://image.slidesharecdn.com/automatingdocumentationonjavascriptprojects-fullstack16-160713220646/95/talk-at-fullstack-2016-automating-documentation-on-javascript-projects-27-638.jpg?cb=1468638516
 title: Javascript - Làm thế nào để lấy những parames trên url sử dụng javascript
 logouser: https://avatars1.githubusercontent.com/u/15043041?v=3&s=466
-description:  Query string parameters have been incredibly useful on the server side since the internet took liftoff, but it wasn't until AJAX-driven web apps became popular that we relied too much on them on the client side. Not only do we grab parameter values but we also modify them dynamically with the History API, so these parameters play a major role outside of the initial page load.
+description:  Có rất nhiều cách để lấy những parameters trên url, nhưng trong bài viết này tôi sử dụng javascript để thay thế cho nhiều cách khác. Và tôi nghĩ sẽ có nhiều lúc bạn sẽ cần đến nó...
 date: 17 Sep 2016
 ---
 
