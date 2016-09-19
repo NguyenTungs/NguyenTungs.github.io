@@ -20,6 +20,8 @@ permalink: /about.html/
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
   <!-- all your input fields here.... -->
   <input type='text' name='test' />
+<input type='text' name='test1' />
+<input type='text' name='test2' />
   <input type='submit' value='Test form' />
 </form>
 
