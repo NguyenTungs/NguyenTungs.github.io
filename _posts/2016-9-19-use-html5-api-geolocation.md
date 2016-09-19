@@ -69,9 +69,9 @@ date: 17 Sep 2016
         <p> Đầu tiên mình tạo file index.html</p>
         <pre><code>
         // index.html XXXXX là key api của bạn.
-        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&key=XXXXX"></script>
-        <section id="result"></section>
-        <section id="gMap"></section>
+        &lt;script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&key=XXXXX"&gt;
+        &lt;section id="result"&gt;
+        &lt;section id="gMap"&gt;
         </code></pre>
         <p>Sau đó add code javascript sau : </p>
         <pre><code>
