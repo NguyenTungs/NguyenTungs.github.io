@@ -114,6 +114,7 @@ date: 17 Sep 2016
         <p>Sau đây là kết quả : </p>
         <p><img src="https://github.com/NguyenTungs/NguyenTungs.github.io/blob/master/uploads/img/geolocation.png?raw=true" alt="" />
         <p><i>Cảm ơn các bạn đã cùng chia sẻ.</i></p>
+
     </section>
     <hr>
     <section class="share">
@@ -128,6 +129,7 @@ date: 17 Sep 2016
             <span class="hidden">Google+</span>
         </a>
     </section>
+
 </article>
 <br/>
 <article class="post tag-article">
