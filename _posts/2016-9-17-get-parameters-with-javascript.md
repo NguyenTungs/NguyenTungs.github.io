@@ -72,18 +72,3 @@ date: 17 Sep 2016
         </a>
     </section>
 </article>
-<br/>
-<article class="post tag-article">
-    <footer class="post-footer">
-        <section class="author">
-            <h4>Nguyen Tungs</h4>
-            <img src='https://avatars1.githubusercontent.com/u/15043041?v=3&s=466' />
-            <p>I am Nguyen Tungns a web developer from HCM, VietNam.</p>
-        </section>
-    </footer>
-</article>
-<br/>
-<article class="post tag-article">
-    <br/>
-    <div id="disqus_thread">Comment here</div>
-</article>
