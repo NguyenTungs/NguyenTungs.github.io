@@ -69,39 +69,7 @@
                 
             
             
-            <br/>
-            <article class="post tag-article">
-                <footer class="post-footer">
-                    <section class="author">
-                        <h4>Nguyen Tungs</h4>
-                        <img src='https://avatars1.githubusercontent.com/u/15043041?v=3&s=466' />
-                        <p>I am Nguyen Tungns a web developer from HCM, VietNam.</p>
-                    </section>
-                </footer>
-            </article>
-            <br/>
-            <article class="post tag-article">
-                <br/>
-                <div id="disqus_thread">
-                    <div class="fb-comments" data-href="https://nguyentungs.github.io{{ page.url }}/" data-width="100%" data-num-posts="10" data-colorscheme="dark"></div>
-                </div>
-            </article>
             
-            
-            <!-- Pagination links -->
-            <div class="pagination">
-                {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-                {% else %}
-                <span class="previous">Previous</span>
-                {% endif %}
-                <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-                {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-                {% else %}
-                <span class="next ">Next</span>
-                {% endif %}
-            </div>
         </main>
         <footer class="site-footer">
             <div class="pagelist">
