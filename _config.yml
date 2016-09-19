@@ -38,7 +38,7 @@ disqus:
     
 # tungns: number page show list
 paginate: 2
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
